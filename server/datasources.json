@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "tesis-shard-00-00-r71se.mongodb.net:27017/tesis",
+    "port": 27017,
+    "url": "mongodb://Administrador:giova300@tesis-shard-00-00-r71se.mongodb.net:27017,tesis-shard-00-01-r71se.mongodb.net:27017,tesis-shard-00-02-r71se.mongodb.net:27017/tesis?ssl=true&replicaSet=tesis-shard-0&authSource=admin&retryWrites=true",
+    "database": "tesis",
+    "password": "giova300",
+    "name": "db",
+    "user": "Administrador",
+    "connector": "mongodb",
+    "useNewUrlParser": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Game",
+  "plural": "games",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }, 
+	"platform": {
+      "type": "any",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
